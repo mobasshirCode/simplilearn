@@ -23,7 +23,7 @@ export default function Takeaway() {
             "Actionable insights you can take straight into your next exec meeting.",
           ].map((item) => (
             <div key={item} className="flex items-start mb-[24px] md:mb-[40px]">
-              <div className="w-[3px] h-[48px] md:h-[59px] bg-[#F5AB40] mr-[16px] md:mr-[20px]" />
+              <div className="border-l-[4px] h-[48px] md:h-[59px] border-[#F5AB40] mr-[16px] md:mr-[20px]" />
               <p className="text-[15px] md:text-[20px] font-medium leading-[1.5em]">
                 {item}
               </p>

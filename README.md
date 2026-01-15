@@ -1,36 +1,57 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# 🚀 Simplilearn – Dallas Round Table
 
-## Getting Started
+A pixel-perfect, fully responsive landing page built as part of the **SDE-1 (Next.js & AI-Driven Development) Technical Assessment**.
 
-First, run the development server:
+The project focuses on design accuracy, modern Next.js architecture, and a real backend integration.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+🔗 **Live Demo (Vercel):** https://simpli-rsvp.vercel.app
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+---
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+## ✨ Highlights
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+- 🎯 High design fidelity (spacing, typography, colors, alignment)
+- 📱 Fully responsive across mobile and desktop
+- ⚡ Built using **Next.js App Router** and **Server Components**
+- 🔐 RSVP form handled via **Server Actions** (no API routes)
+- 🗃️ Email submissions stored securely in **Airtable**
+- 🎨 Extra attention to detail, including use of the **Simplilearn favicon** for brand realism
 
-## Learn More
+---
 
-To learn more about Next.js, take a look at the following resources:
+## 🧠 Tech Stack
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- Next.js (App Router)
+- Tailwind CSS
+- Server Actions
+- Airtable (backend)
+- Vercel (deployment)
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+---
 
-## Deploy on Vercel
+## 🏗️ Architecture Overview
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+- UI implemented using **Server Components**
+- Form submission handled via a **Server Action**
+- Secrets remain server-side (no client exposure)
+- Clean, modular, and readable code structure
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+---
+
+## 📩 RSVP Functionality
+
+- Users can submit their email via the RSVP form
+- Submissions are written directly to an Airtable base
+- Functionality verified with successful record creation
+
+---
+
+## 🎯 Final Note
+
+This project reflects my approach to frontend engineering:
+- Pixel-perfect execution
+- Modern Next.js best practices
+- Practical backend integration
+- Strong attention to detail and polish
+
+Thank you for reviewing my submission.
